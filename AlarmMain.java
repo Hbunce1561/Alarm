@@ -7,7 +7,7 @@ public class AlarmMain {
 		// TODO Auto-generated method stub
 		int timeDesired=2400;
 		int currentTime = 0;
-		String Path = "C:\\Users\\nsyin\\Downloads\\Walk Through the Park - TrackTribe.mp3";
+		String Path = "./A Night Alone - TrackTribe.mp3";
 		File file = new File(Path);
 		Scanner input = new Scanner(System.in);
 		while(timeDesired%100>60||timeDesired > 2359) {
