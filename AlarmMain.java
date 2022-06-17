@@ -47,7 +47,7 @@ public class AlarmMain {
 		System.out.println("Beep! Beep! Beep! Times up!");
 		try {
 		Desktop.getDesktop().open(file);
-		}catch(IOException e) {
+		}catch(Exception e) {
 			 System.out.println("A fatal error has occurred.");
 			    System.exit(1);
 		}
